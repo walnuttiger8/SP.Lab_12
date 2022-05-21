@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/coding/c/SP/lab_12_11/db/counter/counter.c
+stdio.h
+-
+counter.h
+D:/coding/c/SP/lab_12_11/db/counter/counter.h
+
+D:/coding/c/SP/lab_12_11/db/counter/counter.h
+
+D:/coding/c/SP/lab_12_11/db/db.c
+stdio.h
+-
+stdlib.h
+-
+db.h
+D:/coding/c/SP/lab_12_11/db/db.h
+
+D:/coding/c/SP/lab_12_11/db/db.h
+counter/counter.h
+D:/coding/c/SP/lab_12_11/db/counter/counter.h
+
