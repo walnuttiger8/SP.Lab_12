@@ -6,18 +6,12 @@
 
 #IncludeRegexTransform: 
 
-D:/coding/c/SP/lab_12_11/database/database.c
-stdio.h
--
-stdlib.h
--
-database.h
-D:/coding/c/SP/lab_12_11/database/database.h
-
 D:/coding/c/SP/lab_12_11/database/database.h
 
 D:/coding/c/SP/lab_12_11/main.c
 stdio.h
+-
+string.h
 -
 database/database.h
 D:/coding/c/SP/lab_12_11/database/database.h

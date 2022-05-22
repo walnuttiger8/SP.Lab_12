@@ -19,4 +19,4 @@ int insert(struct Book *book);
 
 int truncate();
 
-struct Book *get();
+struct Book *get(int *n);

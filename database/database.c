@@ -77,9 +77,9 @@ int truncate() {
 }
 
 
-struct Book *get() {
+struct Book *get(int *n) {
     FILE *f;
-    int counter = getCounter();
+    *n = getCounter();
     struct Book *books;
 
     if (fopen_s(&f, filename, "rb")) {
@@ -87,9 +87,9 @@ struct Book *get() {
         return 0;
     }
 
-    books = calloc(counter, sizeof(struct Book));
+    books = calloc(*n, sizeof(struct Book));
 
-    fread(books, sizeof(struct Book), counter, f);
+    fread(books, sizeof(struct Book), *n, f);
     fclose(f);
 
     return books;
